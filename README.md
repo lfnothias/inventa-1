@@ -129,13 +129,20 @@ This output needs an additional step after runnign sirius, please follow the nex
 `reponderation_results_filename` : format from TimaR (https://taxonomicallyinformedannotation.github.io/tima-r/).
 `vectorized_data_filename`: MEMO package format (https://github.com/mandelbrot-project/memo).
 
-[Examples of all these input could be found in `/format_examples`]
+[Examples of all these input could be found in `format_examples/`]
+
 
 ## Once the input files have the right format 
 
+<<<<<<< Updated upstream
 Drop your files in the data folder and change the names in the notebook to march them:
 
 ### Input filenames: drag them in the data folder
+=======
+#### paths: 
+
+Each path corresponds to the files mentiones above. Just drop your files in the `data/` folder and change the names accordingly: 
+>>>>>>> Stashed changes
 
 ```
         metadata_filename = '../data/Celastraceae_Set_metadata_pos.tsv'
@@ -145,12 +152,17 @@ Drop your files in the data folder and change the names in the notebook to march
         canopus_npc_summary_filename = '../data/canopus_npc_summary.tsv'
         sirius_annotations_filename = '../data/canopus_npc_summary.tsv'
 ```
+<<<<<<< Updated upstream
 
 ## Parameter to be fixed before running INVENTA
 
 There are some parameters that need to be fixed by the user before launching the job. 
 GO TO `src/inventa.py` and cange accordingly: 
 #### Feature component
+=======
+#### Parameters:
+##### Feature component
+>>>>>>> Stashed changes
 
 ```
         FC_component = True                          #FC will be calculated
